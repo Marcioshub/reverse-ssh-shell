@@ -1,6 +1,6 @@
 # Reverse SSH Tunnel | bash script
 
-Creates a reverse ssh from a raspberrypi into a remote linux server.
+Creates a reverse ssh shell from a raspberrypi to a remote linux server.
 Remember to replace the port number and remote linux server ip address with your own.
 
 Note: Depending on your server configuration you may also need to configure ssh keys and change firewall settings.
