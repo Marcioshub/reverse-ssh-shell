@@ -1,6 +1,6 @@
 #!/bin/bash
 createTunnel() {
-    /usr/bin/bash -N -R <port>:localhost:22 root@<remoteserver>
+    /usr/bin/ssh -N -R <port>:localhost:22 root@<remoteserver>
     if [[ $? -eq 0 ]]; then
         echo Tunnel was created successfully
     else
