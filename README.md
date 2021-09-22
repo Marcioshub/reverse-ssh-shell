@@ -20,5 +20,5 @@ crontab -e
 
 ```bash
 # linux server
-ssh -p PORT pi@ipaddress
+ssh -p PORT pi@localhost
 ```
